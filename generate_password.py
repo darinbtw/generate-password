@@ -55,3 +55,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = PasswordGeneratorApp(root)
     root.mainloop()
+#<60a,T=uWVdx5;K
