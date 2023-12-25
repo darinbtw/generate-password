@@ -17,7 +17,7 @@ class PasswordGeneratorApp:
         self.create_widgets()
 
     def generate_password(self):
-        length = 15  # Длина пароля (можете изменить по своему усмотрению)
+        length = 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15  # Длина пароля (можете изменить по своему усмотрению)
         characters = string.ascii_letters + string.digits + string.punctuation
 
         password = ''.join(random.choice(characters) for i in range(length))
@@ -55,4 +55,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = PasswordGeneratorApp(root)
     root.mainloop()
-#<60a,T=uWVdx5;K
